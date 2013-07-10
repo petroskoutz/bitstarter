@@ -43,7 +43,7 @@ var assertFileExists = function(infile) {
 var myurl=function (mymyurl){
     fs.writeFileSync(outfile, rest.get(mymyurl).on('complete',function(result){
 	var indic=1;
-	})
+	}))
 	return outfile.toString();
 }; 
 
